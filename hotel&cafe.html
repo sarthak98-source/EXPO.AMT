@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel & Cafe</title>
+  <link rel="stylesheet" href="pari.css" />
+  <style>
+    body {
+      font-family: "Georgia, serif";
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f4f8;
+    }
+    .main-header {
+    background-color: skyblue;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-bottom: 3px solid black;
+  } 
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .brand-name {
+    font-size: 20px;
+  }
+ 
+  .right-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  /* removing underline of back to home */
+  .underline{
+    margin-top: 15%;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+  }
+
+    .maintital {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .right-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .underline {
+      color: black;
+      margin-top: 15%;
+      font-size: 1.3rem;
+      text-decoration: none;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: black;
+      transform: translate(0);
+      padding: 15px 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin: 0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 30px;
+  
+    }
+
+    .box {
+      margin-top: 5%;
+      background-color: rgb(225, 213, 213);
+      border-radius: 15px;
+      width: 330px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 7px ;
+      transition: transform 0.3s;
+      border-left: 6px solid #87ceeb;
+    }
+
+    .box:hover {
+      transform: scale(1.03);
+    }
+
+    .box h2 {
+      font-size: 24px;
+      color: #1e3a8a;
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .box p,
+    .box ul {
+      font-size: 15px;
+      color: #333;
+      margin: 6px 0;
+    }
+
+    .box .label {
+      font-weight: bold;
+    }
+
+    .box img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color:#666;
+  }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <div class="left-section">
+      <img src="expo.amt.jpg" alt="Amravati Logo" class="logo">
+      <h2 class="brand-name">EXPO.AMT</h2>
+    </div>
+    <h1 class="main-title">Amravati's Best Hotels and cafe </h1>
+    <h2 class="right-section"><a href="index.html" class="underline">Back To Home</a></h2>
+  </header>
+
+  <div class="grid-container">
+
+    <div class="box">
+      <img src="https://content.jdmagicbox.com/comp/amravati/h2/9999px721.x721.140103161129.p9h2/catalogue/raghuveer-refreshments-badnera-amravati-sweet-biscuit-cake-manufacturers-1fkeg2mytx.jpg" alt="Raghuvir Sweets">
+      <h2>🍬 Raghuvir Sweets</h2>
+      <p><strong>Established:</strong> 1970<br>
+        <strong>Founder:</strong> Mangalji Bhai Popat</p>
+      <p><strong>Specialty:</strong> Sweets, snacks, bakery, dairy</p>
+      <p><strong>Popular Products:</strong> Kaju Katli, Sambharvadi, Shrikhand</p>
+      <p><strong>Branches:</strong> Rajapeth, Shyam Chowk, Gadge Nagar, Ambapeth, Navathe</p>
+      <p><strong>Phone:</strong> ‪+91 94045 45451‬<br>
+        <strong>Website:</strong> <a href="https://www.raghuvirsweets.in" target="_blank">raghuvir sweets.in</a><br>
+         </div>
+
+    <div class="box">
+      <img src="https://content.jdmagicbox.com/comp/amravati/z8/9999px721.x721.130115172434.t2z8/catalogue/the-grand-mehfil-camp-amravati-hotels-rs-1001-to-rs-2000-hz4bk.jpg" alt="The Grand Mehfil">
+      <h2>🏨 The Grand Mehfil</h2>
+      <p><strong>Location:</strong> Camp Road, Maltekdi</p>
+      <p><strong>Rating:</strong> 4.0/5</p>
+      <ul>
+        <li>4-star hotel with luxurious rooms</li>
+        <li>Pool, restaurant, bar, banquet</li>
+        <li>Ideal for business, weddings</li>
+      </ul>
+      <strong>Website:</strong> <a href="https://www.mehfilhotels.com/Grand-Mehfil/" target="_blank">The Grand Mehfil.in</a><br>
+    </div>
+
+    <div class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp_fjnvrfuME_vId9owEz4C1sRC0ZPVs-Qyg&s" alt="Treebo Baby Pearl">
+      <h2>🏨 Treebo Baby Pearl</h2>
+      <p><strong>Location:</strong> Arjun Nagar, Shegaon Naka Road</p>
+      <p><strong>Rating:</strong> 3.9/5</p>
+      <ul>
+        <li>Clean budget rooms</li>
+        <li>Wi-Fi, 24/7 front desk</li>
+        <li>Near city attractions</li>
+      </ul>
+      <strong>Website:</strong> <a href="https://www.treebo.com/" target="_blank">Treebo Baby Pearl.in</a><br>
+    </div>
+
+    <div class="box">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/a6/35/a0/gauri-inn.jpg" alt="Hotel Gouri Inn">
+      <h2>🏨 Hotel Gouri Inn</h2>
+      <p><strong>Location:</strong> NH 6, Nagpur Road</p>
+      <p><strong>Rating:</strong> 3.5/5</p>
+      <ul>
+        <li>Modern rooms, on-site dining</li>
+        <li>Banquet space, free parking</li>
+        <li>Ideal for business & events</li>
+      </ul>
+      <strong>Website:</strong> <a href="https://www.gouriinn.in/" target="_blank">Hotel Gouri Inn.in</a><br>
+    </div>
+
+    <div class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR62lkArqveIUTeQb-LCVUmBo2nmTJhQFPHhw&s" alt="Brewers The Coffee Bar">
+      <h2>☕ Brewers The Coffee Bar</h2>
+      <p><strong>Location:</strong> Near Rajurkar Furniture</p>
+      <p><strong>Rating:</strong> 4.2/5</p>
+      <p><strong>Timings:</strong> 11:00 AM – 10:00 PM</p>
+      <ul>
+        <li>Pizza, momos, coffee</li>
+        <li>Cozy decor, ideal for couples</li>
+        <li>₹830–₹2,100 per person</li>
+      </ul>
+      
+      <strong>Website:</strong> <a href="https://www.justdial.com/Amravati/Brewers-The-Coffee-Bar-Closed-Down-Sai-Nagar-Amravati/9999PX721-X721-171027191710-P5X5_BZDET" target="_blank">Brewers The Coffee Bar.in</a><br>
+    </div>
+
+    <div class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwwY7GMW5gIgNI0c12nWFWDCnuNbGyhcGdw&s" alt="The Cafe R">
+      <h2>☕ The Cafe R</h2>
+      <p><strong>Location:</strong> Twin Tower, Shop No-2</p>
+      <p><strong>Rating:</strong> 4.7/5</p>
+      <p><strong>Timings:</strong> 10:30 AM – 10:30 PM</p>
+      <ul>
+        <li>Budget-friendly, student spot</li>
+        <li>Pizza, fries, sandwiches</li>
+        <li>₹1–₹200 per person</li>
+      </ul>
+      
+      <strong>Website:</strong> <a href="https://www.justdial.com/Amravati/The-Cafe-R-Dastur-Nagar/9999PX721-X721-190407162937-H2Z8_BZDET" target="_blank">The Cafe R.in</a><br>
+    </div>
+
+  </div>
+  <footer>
+    <p>© 2025 Amravati's Hotels And Cafe | Designed by Parikshit Bhadange</p>
+</body>
+</html>

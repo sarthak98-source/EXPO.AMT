@@ -1,0 +1,265 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>City Explorer</title>
+<link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="left-heading"><img src="EXPO.AMT.png" alt="City Logo"><div  class="expo.amt">EXPO.AMT</div></div>
+      
+      <div class="center-heading">Explore Amravati</div>
+    </div>
+  </header>
+  <!-- navigation bar -->
+  <nav class="navbar">
+     <!-- signin signup -->
+  <div class="auth-buttons">
+    <button onclick="openForm('signin')">Sign In</button>
+    <button onclick="openForm('login')">Log In</button>
+  </div>
+  <!-- place hotel events transport about -->
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="tourist_place.html">Tourist Places</a>
+    <a href="hotel&cafe.html">Hotels & Cafes</a>
+    <a href="shooping.html">Shoping</a>
+    <a href="#Transport">Transport</a>
+   
+  </div>
+  </nav>
+
+  <!-- bacground image -->
+  <div class="hero">
+  </div>
+  <section>
+    
+  </section>
+  <!--tourist section -->
+  <section id="places">
+    <h2>Tourist Places</h2> 
+  
+    <div class="cards">
+      <div class="card">
+        <img src="https://www.seawatersports.com/images/places/shri-ambadevi-temple.png" alt="Temple">
+        <div class="card-body">
+          <h3>Ambadevi Temple</h3>
+          <p>One of Amravati's oldest temples, dedicated to Goddess Ambadevi. Famous for Navratri celebrations and divine architecture.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBfyqrsczKl_409Ya2W9l7KNnqY-yl52e5wIlH9y3MkAX2-qvCNNHt6lBOwCowrRU5yYg&usqp=CAU" alt="Museum">
+        <div class="card-body">
+          <h3>Bamboo Garden</h3>
+          <p>India's first bamboo park, with 65+ bamboo species, toy train, cactus garden, and eco-sculptures..</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsU0gxbU2HgNOPqdW-NV70DK9W4toMEbKoUQ&s" alt="Castle">
+        <div class="card-body">
+          <h3>Chatri Talao</h3>
+          <p>Historical reservoir built in 1888, perfect for peaceful walks and scenic sunset views.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/27/7a1407788cfaf93d22490fee579ca3eb_1000x1000.jpg" alt="River">
+        <div class="card-body">
+          <h3>Wadali Talao</h3>
+          <p>Popular lake for boating, family picnics, and photography. Includes garden, zoo, and peaceful sunset views.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hotel and caffe section -->
+  <section id="hotels">
+    <h2>Hotels & Cafes</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://content.jdmagicbox.com/comp/amravati/h2/9999px721.x721.140103161129.p9h2/catalogue/raghuveer-refreshments-badnera-amravati-sweet-biscuit-cake-manufacturers-1fkeg2mytx.jpg" alt="Restaurant">
+        <div class="card-body">
+          <h3>Raghuvir Sweets</h3>
+          <p>Sweets, snacks, bakery, dairy.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwwY7GMW5gIgNI0c12nWFWDCnuNbGyhcGdw&s" alt="Lounge">
+        <div class="card-body">
+          <h3>The Cafe R</h3>
+          <p>Budget-friendly, student spot
+            Pizza, fries, sandwiches
+            </p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="https://content.jdmagicbox.com/comp/amravati/z8/9999px721.x721.130115172434.t2z8/catalogue/the-grand-mehfil-camp-amravati-hotels-rs-1001-to-rs-2000-hz4bk.jpg" alt="Hotel Room">
+        <div class="card-body">
+          <h3>The Grand Mehfil</h3>
+          <p>Experience luxury and comfort in the heart of the city.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR62lkArqveIUTeQb-LCVUmBo2nmTJhQFPHhw&s" alt="Cafe">
+        <div class="card-body">
+          <h3> Brewers The Coffee Bar</h3>
+          <p>Cozy spot with a view and the best coffee in town. Pizza, momos, coffee
+            Cozy decor, ideal for couples</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- events and festival section -->
+  <section id="events">
+    <h2>Amravati's Street market</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://files.yappe.in/place/small/jd-mall-4353044.webp" alt="Parade">
+        <div class="card-body">
+          <h3>Joshi Market</h3>
+          <p>>Joshi Market is renowned for its extensive selection of garments, including ethnic wear, 
+            casual outfits, and fabrics.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://etvbharatimages.akamaized.net/etvbharat/prod-images/768-512-7435309-thumbnail-3x2-aa.jpg?imwidth=3840" alt="Dance Festival">
+        <div class="card-body">
+          <h3>Busyland Market Amravati </h3>
+          <p>manufacturers specializing in:The Busyland Street Market is a bustling hub for fabrics, clothing, and garments. It houses numerous shops </p>
+        </div>
+      </div>      
+      <div class="card">
+        <img src="https://files.yappe.in/place/full/mahavir-market-10546086.webp" alt="Festival">
+        <div class="card-body">
+          <h3>Mahavir Market</h3>
+          <p>The market hosts a variety of retailers, including textile shops like
+            Krishna Textiles, which offers suits, sarees, fabrics, and dress materials</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy2sN8VInAmw9NVVE4HOTgb1LLbudm3sW7WNEUD-1MlyJaVjMtP9Ps2MOVOhN05fKifP8&usqp=CAU" alt="Concert">
+        <div class="card-body">
+          <h3>Market at Rajkamal Chauk</h3>
+          <p> Jawahar Gate Market, Farshi Stop Market, Itwara Bazar, Khan Market explore the different street market at rajkamal chowk </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- transportation -->
+<!-- transportation -->
+<section id="Transport" class="section transport-section">
+  <div class="section-container">
+    <h2>Transportation Facilities</h2>
+    <p>Click on the transport icon to view more options.</p>
+    <div class="transport-icons">
+      <a href="transport.html" class="transport-icon">
+        🚌<br>
+        <span>Transport</span>
+      </a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+</section>
+
+<div class="section-divider"></div>
+
+<section id="about">
+  <div class="about-container">
+    <h2>About EXPO.AMT</h2>
+    <p class="intro">
+      EXPO.AMT is a modern, student-friendly digital guide crafted to help people explore the city of Amravati with ease.
+       Whether you're a newcomer, a tourist, or a long-time resident looking for new experiences, EXPO.AMT is your go-to
+        platform for discovering the best of the city it help tourist to find best touris place, beat hotels and cafe ,
+         street  shoping market and transportation Facilities.
+    </p>
+    <div class="vision-mission">
+      <div class="box">
+        <h3>Our Vision</h3>
+        <p>To make exploring Amravati effortless, easy , and exciting for everyone through a single, reliable platform.</p>
+      </div>
+      <div class="box">
+        <h3>Our Mission</h3>
+        <p>To provide accurate, updated, and curated information about Amravati’s tourist place , hotels and cafés, transportation, events, shopping areas, and more—making your time in the city more enjoyable and meaningful.</p>
+      </div>
+    </div>
+    <div class="details">
+      <h3>Why EXPO.AMT?</h3>
+      <ul>
+        <li>Help tourist to get information about Amravati</li>
+        <li>Get all information at one place Torism,hotels,shoping,transportation </li>
+        <li>Showcases local businesses and hidden gems</li>
+        <li>Easy to use on any device</li>
+      </ul>
+      <h3>What You’ll Find</h3>
+      <ul>
+        <li>Tourist attractions</li>
+        <li>Transportation routes</li>
+        <li>Hotels, cafés, and Restaurant</li>
+        <li>Shopping ,Local market</li>
+      </ul>
+    </div>
+
+    <p class="closing">
+      Every city has its own rhythm, flavor, and story. EXPO.AMT helps you discover Amravati’s like never before—clearly, confidently, and completely.
+    </p>
+  </div>
+</section>
+
+
+
+
+  <footer>
+    <p style="color: white;">© 2025 City Explorer. All rights reserved. Made by: Shela Gang 🧣</p>
+  </footer>
+  <!-- Auth Model -->
+  <div id="auth-popup" class="auth-popup" style="display:none;">
+    <div class="auth-form">
+      <span class="close" onclick="closeForm()">×</span>
+      <h2 id="form-title">Sign In</h2>
+      <form id="authForm">
+        <div class="form-group">
+          <label>Email or Mobile:</label>
+          <input type="text" name="contact" required />
+        </div>
+        <div class="form-group" id="username-group" style="display:none;">
+          <label>Username:</label>
+          <input type="text" name="username" />
+        </div>
+        <div class="form-group">
+          <label>Password:</label>
+          <input type="password" name="password" required />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+<!-- Script -->
+<script>
+  function openForm(mode) {
+    document.getElementById("auth-popup").style.display = "flex";
+    const title = document.getElementById("form-title");
+    const usernameGroup = document.getElementById("username-group");
+
+    if (mode === 'login') {
+      title.textContent = "Log In";
+      usernameGroup.style.display = "block";
+    } else {
+      title.textContent = "Sign In";
+      usernameGroup.style.display = "none";
+    }
+  }
+
+  function closeForm() {
+    document.getElementById("auth-popup").style.display = "none";
+  }
+</script>
+</body>
+</html>

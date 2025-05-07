@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'rubik', sans-serif;
+}body {
+  
+background-color:#ffffff
+colorblack#333333;
+}
+/* header with expo.amt */
+.header {
+position: relative;
+display: flex;
+justify-content:  space-between;
+align-items: center;
+background-color: #48cae4;
+height: 90px;
+padding: 0 20px;
+}
+.expo.amt{
+  margin-left: 90px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+ 
+}
+.left-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and text */
+  margin-left: 10px;
+
+}
+.left-heading img{
+  margin-top: 5px;
+height: 75px;
+width: 75px;
+border-radius: 50%;
+box-shadow: 0 2px 5px rgb(0,0,0.3s);
+transition: transform 0.3s ease;
+}
+
+.center-heading {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+font-size: 32px;
+font-weight: bold;
+color: #333333;
+}
+/* subtitle like tourist place */
+nav {
+background: #ade8f4;
+padding: 20px; ;
+text-align: right;
+height: 60px;
+font-weight: 600;
+font-size: 0.95rem;
+}
+
+nav a {
+color: #333333;
+text-decoration: none;
+margin: 0 15px;
+
+}
+
+section {
+padding: 2em;
+}
+
+.hero {
+background-image: url('logo.png');
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: scroll;
+height: 617px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+.hero h2 { 
+font-size: 3em;
+color: white;
+text-shadow: 2px 2px 8px #000;
+font-family:'Pacifico', cursive;
+
+}
+
+/* image boxes at home pages */
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 1.5em;
+margin-top: 2em;
+}
+
+.card:hover {
+  transform: scale(1.10) translateY(-5px);
+  background-color: #1e4d5f; /* slightly grayer */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card {
+  background-color: #16323f;
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  height: 400px;/* increased height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 230px; /* taller image area */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1em;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.card-body h3 {
+color: #fdbb2d;
+margin-bottom: 0.5em;
+}
+/* footer */
+footer {
+text-align: center;
+padding: 1em;
+background: #061922;
+margin-top: 2em;
+}
+/* transoprt icons like bus cars and trains */
+/* General section styling */
+.section {
+  padding: 4rem 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.section-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #2b3a55;
+}
+
+.section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Transport section specific styles */
+.transport-section {
+  background-color: #93a7bb;
+}
+
+.transport-icon {
+  text-decoration: none;
+  color: inherit;
+  font-size: 3rem;
+  padding: 3rem;
+  border-radius: 25px;
+  background-color: #fff;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.transport-icon:hover {
+  transform: scale(1.05);
+}
+
+.transport-icon span {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 0rem;
+}
+
+.about {
+  padding: 3rem 1rem;
+  margin-top: 8rem;
+  border-top: 8px solid #855e5e;
+  font-family: 'pacifico', cursive;
+  text-align: center;
+}
+
+.about-container {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  text-align: center;
+}
+
+.about .intro,
+.about .closing {
+  font-size: 2.1rem;
+  color: #0b0b0b;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.vision-mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  background: #ffffff;
+  padding: 1.1rem;
+  border-radius: 10px;
+  box-shadow:  0 0  8px rgba(19, 18, 18, 0.08);
+  flex: 1 1  280px
+  max-width 450px;
+}
+
+.box h3 {
+  color: #2f6a94;
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.details h3 {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin: 2rem 0 1rem;
+  text-align: center;}
+
+.details ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.section-divider {
+  border-top: 2px solid #000000;
+  width: 70%;
+  margin: 2rem auto;
+}
+.navbar {
+  display: flex;
+align-items: center;
+background: #ade8f4;
+padding: 0.5em 1em;
+font-weight: 600;
+}
+/* signin signup options */
+.auth-buttons {
+display: flex;
+gap: 30px;
+margin-right: auto;
+}
+
+.auth-buttons button {
+padding: 8px 15px;
+background-color: #2c3132b4;
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 15px; /* Fully rounded pill shape */
+cursor: pointer;
+transition:background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+font-size: 15px;
+font-weight: bold;
+}
+
+.auth-buttons button:hover {
+background-color: #023e8a;
+transform: scale(1.5); 
+box-shadow: 0 0 8px rgba(0, 180, 216, 0.6); 
+}
+
+
+.nav-links{
+display: flex;
+margin-left: auto; /* pushes nav-links to the right */
+gap: 15px;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333333;
+}
+
+
+.auth-popup {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.7);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 999;
+}
+
+.auth-form {
+background: #fff;
+color: #000;
+padding: 2em;
+border-radius: 15px;
+width: 300px;
+position: relative;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.auth-form:hover {
+transform: scale(1.05); /* enlarge slightly on hover */
+box-shadow: 0 0 15px rgba(0, 180, 216, 0.4);
+}
+
+.auth-form .close {
+position: absolute;
+top: 10px;
+right: 15px;
+font-size: 1.5em;
+cursor: pointer;
+}
+
+.form-group {
+margin-bottom: 1em;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 5px;
+font-weight: 500;
+}
+
+.form-group input {
+width: 100%;
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
